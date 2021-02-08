@@ -1,0 +1,164 @@
+
+	html, body {
+		top: 0;
+		left: 0;
+		height: 100%;
+		width: 100%;
+		text-align: center;
+		margin: 0;
+	  position:absolute;
+	}
+	
+	.mouse_over {
+		color: black;
+		background-color: #854935;
+	}
+	
+	.mouse_out {
+		color: #000000;
+	}
+
+	
+	.fundo {
+		position: absolute;
+		width: 100vw;
+		height: 200vh;
+		object-fit: fill;
+		z-index: 0;
+		background-repeat: no-repeat;
+		background-image: url('https://live.staticflickr.com/65535/50920378036_d8d6517ebb_k.jpg');
+	}
+	
+	.circle-sketch-highlight{
+  position:relative;
+}.circle-sketch-highlight:before{
+  content:"";
+  z-index:-1;
+  left:2.5em;
+  top:1.5em;
+  border-width:2px;
+  border-style:solid;
+  border-color:black;
+  position:absolute;
+  border-right-color:transparent;
+  width:62%;
+  height:3em;
+  transform:rotate(2deg);
+  opacity:0.7;
+  border-radius:50%;
+  padding:0.1em 0.25em;
+}.circle-sketch-highlight:after{
+  content:"";
+  z-index:-1;
+  left:2.6em;
+  top:1.7em;
+  padding:0.1em 0.25em;
+  border-width:2px;
+  border-style:solid;
+  border-color:black;
+  border-left-color:transparent;
+  border-top-color:transparent;
+  position:absolute;
+  width:61%;
+  height:3.3em;
+  transform:rotate(-1deg);
+  opacity:0.7;
+  border-radius:50%;
+}
+	
+	
+	.rowclass {
+		height: 12vh; 
+		width: 80vw!important;
+		left: 0vw;
+		top: 0%;
+	}
+	
+	.container-fluid {
+		position: absolute;
+		height: 10vh;
+		top: 20vmin;
+		left: 2vw;
+		width: 76vw!important;
+	}
+	
+	.bio {
+		top: 40vh;
+		left: 8vw;
+		background-color: yellow;
+		color: black;
+		position: absolute;
+		width: 50vw;
+		z-index: 5;
+		font-size: 3vmin;	
+		display: inline-block;
+		line-height: 1em;
+		padding-bottom: 0.5em;
+	}
+	
+	
+	.botao {
+		text-align: center;
+		width: 15vw;
+		height: 10vh;
+		left: 0vw;
+		z-index: 5;
+		position: absolute;
+		-webkit-user-select: none; /* Safari */        
+		-moz-user-select: none; /* Firefox */
+		-ms-user-select: none; /* IE10+/Edge */
+		user-select: none; /* Standard */
+		font-size: 1.6vmin;	
+		/*font-family: 'Special Elite', cursive;*/
+		font-family: Micrograma;
+		text-align: center;
+		vertical-align: middle;
+		line-height: 10vh;        /*The same as your div height */
+	}
+	
+	@font-face {
+    font-family: Micrograma;
+    src: url("MicrogrammaDExtendedBold.otf") format("opentype");
+	}
+
+	@font-face {
+	  font-family: Micrograma;
+	  font-weight: 900;
+	  src: url("MicrogrammaDExtendedBold.otf") format("opentype");
+	}
+	
+	
+	.retrato {
+		position: absolute;
+		top: 40vh;
+		left: 65vw;
+		width: auto;
+		height: 60vh;
+		z-index: 10;
+	}
+	
+	.title {
+	z-index: 5;
+	/*background-image: url('marco_do_vale.png');*/
+  background-repeat: no-repeat;
+  background-size: contain;
+  font-family: Micrograma;
+	font-size: 10vmin;	
+	/*font-family: 'Special Elite', cursive;*/
+	/*font-family: 'Archivo Black', sans-serif;*/
+	font-family: Micrograma;
+	position: absolute;
+	color: #000000;
+	width: 59vw;
+	height: 15vh;
+	-webkit-user-select: none; /* Safari */        
+	-moz-user-select: none; /* Firefox */
+	-ms-user-select: none; /* IE10+/Edge */
+	user-select: none; /* Standard */
+	top: 8vh;
+	left: 20vw;
+	text-align: left;
+	object-fit: cover;
+	line-height: 9vmin;
+	}
+
