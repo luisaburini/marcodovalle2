@@ -74,7 +74,7 @@
 		top: 0%;
 	}
 	
-	.container-fluid {
+	.container-fluid-painel {
 		position: absolute;
 		height: 10vh;
 		top: 20vmin;
@@ -82,18 +82,32 @@
 		width: 76vw!important;
 	}
 	
-	.bio {
-		top: 40vh;
-		left: 8vw;
-		background-color: yellow;
-		color: black;
+	.container-fluid-marco {
 		position: absolute;
+		top: 40vh;
+		left: 10vmax;
+		max-width: 80vw;
+	}
+	
+	.bio {
+		position: relative;
+		background-color: white;
+		color: black;
 		width: 50vw;
+		height: 50vh;
 		z-index: 5;
 		font-size: 3vmin;	
-		display: inline-block;
-		line-height: 1em;
+		line-height: 2em;
 		padding-bottom: 0.5em;
+		display: inline;
+	}
+	
+	.retrato {
+		width: 30vmax;
+		height: auto;
+		z-index: 10;
+		position: relative;
+		float: right;
 	}
 	
 	
@@ -125,16 +139,6 @@
 	  font-family: Micrograma;
 	  font-weight: 900;
 	  src: url("MicrogrammaDExtendedBold.otf") format("opentype");
-	}
-	
-	
-	.retrato {
-		position: absolute;
-		top: 40vh;
-		left: 65vw;
-		width: auto;
-		height: 60vh;
-		z-index: 10;
 	}
 	
 	.title {
