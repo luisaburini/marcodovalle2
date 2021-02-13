@@ -39,14 +39,14 @@
 	}.circle-sketch-highlight:before{
 		content:"";
 		z-index:-1;
-		left:2.5em;
-		top:1.5em;
+		left:1em;
+		top:0.2em;
 		border-width:2px;
 		border-style:solid;
 		border-color:black;
 		position:absolute;
 		border-right-color:transparent;
-		width:62%;
+		width:75%;
 		height:3em;
 		transform:rotate(2deg);
 		opacity:0.7;
@@ -55,8 +55,8 @@
 	}.circle-sketch-highlight:after{
 		content:"";
 		z-index:-1;
-		left:2.6em;
-		top:1.7em;
+		left:1em;
+		top:0.2em;
 		padding:0.1em 0.25em;
 		border-width:2px;
 		border-style:solid;
@@ -64,7 +64,7 @@
 		border-left-color:transparent;
 		border-top-color:transparent;
 		position:absolute;
-		width:61%;
+		width:75%;
 		height:3.3em;
 		transform:rotate(-1deg);
 		opacity:0.7;
@@ -73,38 +73,39 @@
 	
 	.bio {
 		position: relative;
-		color: white;
-		background-color: black;
+		color: black;
 		z-index: 5;
-		font-size: 3vmin;	
-		line-height: 5vmin;
+		font-size: 2vmin;	
+		line-height: 2.2vmin;
 		text-align: justify;
-		width: 100%;
-		font-family: BankPrinter;
+		width: 100vmax;
+		letter-spacing: -0.05em;
+		font-family: Helvetica;
 		/*padding-bottom: 0.5em;*/
 		/*display: inline;*/
 	}
 	
 	.poesia {
-		left: -20vw;
-		width: 100vw;
-		object-fit: fill;
+		left: -50vw;
+		width: 48vw;
 	}
 	
 	.botao {
 		text-align: center;
-		width: 15vw;
-		height: 10vh;
+		width: 30vw;
+		height: 20vh;
 		z-index: 5;
 		-webkit-user-select: none; /* Safari */        
 		-moz-user-select: none; /* Firefox */
 		-ms-user-select: none; /* IE10+/Edge */
 		user-select: none; /* Standard */
-		font-size: 1.6vmin;	
+		font-size: 3vmin;	
 		/*font-family: 'Special Elite', cursive;*/
-		font-family: Micrograma;
+		font-family: Helvetica;
+		font-weight: 1000;
 		text-align: center;
 		vertical-align: middle;
+	  letter-spacing: -0.3vmin;
 		line-height: 10vh;        /*The same as your div height */
 	}
 	
@@ -128,14 +129,15 @@
 	.title {
 	white-space: nowrap;
 	z-index: 5;
-  font-family: Micrograma;
-	font-size: 10vmin;	
+  font-family: Helvetica;
+	font-weight: 1000;
+	font-size: 20vmin;	
 	/*font-family: 'Special Elite', cursive;*/
 	/*font-family: 'Archivo Black', sans-serif;*/
-	font-family: Micrograma;
 	color: #000000;
   width: 100vw;
   left: 0vw;
+  letter-spacing: -2vmin;
 	text-align: center;
 	-webkit-user-select: none; /* Safari */        
 	-moz-user-select: none; /* Firefox */
