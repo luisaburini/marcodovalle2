@@ -27,6 +27,7 @@
 		margin-left: 0;
 		margin: 0 auto;
 		width: 100%;
+		grid-gap: -10px;
 	}
 	
 	.fundo {
@@ -43,15 +44,15 @@
 	}.circle-sketch-highlight:before{
 		content:"";
 		z-index:-1;
-		left:1em;
-		top:0.2em;
+		left:0.4em;
+		top:0em;
 		border-width:2px;
 		border-style:solid;
 		border-color:black;
 		position:absolute;
 		border-right-color:transparent;
-		width:75%;
-		height:3em;
+		width:80%;
+		height:2.8em;
 		transform:rotate(2deg);
 		opacity:0.7;
 		border-radius:50%;
@@ -59,8 +60,8 @@
 	}.circle-sketch-highlight:after{
 		content:"";
 		z-index:-1;
-		left:1em;
-		top:0.2em;
+		left:0.4em;
+		top:0.1em;
 		padding:0.1em 0.25em;
 		border-width:2px;
 		border-style:solid;
@@ -68,8 +69,8 @@
 		border-left-color:transparent;
 		border-top-color:transparent;
 		position:absolute;
-		width:75%;
-		height:3.3em;
+		width:80%;
+		height:2.5em;
 		transform:rotate(-1deg);
 		opacity:0.7;
 		border-radius:50%;
@@ -96,13 +97,13 @@
 	.botao {
 		text-align: center;
 		width: 30vw;
-		height: 20vh;
+		height: 15vh;
 		z-index: 5;
 		-webkit-user-select: none; /* Safari */        
 		-moz-user-select: none; /* Firefox */
 		-ms-user-select: none; /* IE10+/Edge */
 		user-select: none; /* Standard */
-		font-size: 3vmin;	
+		font-size: 4vmin;	
 		/*font-family: 'Special Elite', cursive;*/
 		font-family: Helvetica;
 		font-weight: 900;
@@ -139,6 +140,7 @@
 	/*font-family: 'Archivo Black', sans-serif;*/
 	color: #000000;
   width: 100vw;
+  height: 22vh;
   left: 0vw;
   letter-spacing: -2vmin;
 	text-align: center;
