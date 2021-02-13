@@ -26,7 +26,7 @@
 		object-fit: fill;
 		z-index: 0;
 		background-repeat: no-repeat;
-		background-image: url('https://live.staticflickr.com/65535/50920378036_d8d6517ebb_k.jpg');
+		/*background-image: url('https://live.staticflickr.com/65535/50933608583_21305d823f_o.jpg');*/
 	}
 	
 	.circle-sketch-highlight{
@@ -67,19 +67,15 @@
 }
 	
 	
-	.rowclass {
-		height: 12vh; 
-		width: 80vw!important;
-		left: 0vw;
-		top: 0%;
+	.row {
+		display: block;
 	}
 	
 	.container-fluid-painel {
 		position: absolute;
-		height: 10vh;
-		top: 20vmin;
-		left: 2vw;
-		width: 76vw!important;
+		top: 0vmin;
+		left: 0vw;
+		width: 100vw!important;
 	}
 	
 	.container-fluid-marco {
@@ -91,33 +87,21 @@
 	
 	.bio {
 		position: relative;
-		background-color: white;
+		background-color: red;
 		color: black;
-		width: 50vw;
-		height: 50vh;
 		z-index: 5;
 		font-size: 3vmin;	
-		line-height: 2em;
-		padding-bottom: 0.5em;
-		display: inline;
+		line-height: 5vmin;
+		text-align: center;
+		/*padding-bottom: 0.5em;*/
+		/*display: inline;*/
 	}
-	
-	.retrato {
-		width: 30vmax;
-		height: auto;
-		z-index: 10;
-		position: relative;
-		float: right;
-	}
-	
 	
 	.botao {
 		text-align: center;
 		width: 15vw;
 		height: 10vh;
-		left: 0vw;
 		z-index: 5;
-		position: absolute;
 		-webkit-user-select: none; /* Safari */        
 		-moz-user-select: none; /* Firefox */
 		-ms-user-select: none; /* IE10+/Edge */
@@ -128,6 +112,7 @@
 		text-align: center;
 		vertical-align: middle;
 		line-height: 10vh;        /*The same as your div height */
+		background-color: purple;
 	}
 	
 	@font-face {
@@ -143,9 +128,6 @@
 	
 	.title {
 	z-index: 5;
-	/*background-image: url('marco_do_vale.png');*/
-  background-repeat: no-repeat;
-  background-size: contain;
   font-family: Micrograma;
 	font-size: 10vmin;	
 	/*font-family: 'Special Elite', cursive;*/
@@ -153,16 +135,12 @@
 	font-family: Micrograma;
 	position: absolute;
 	color: #000000;
-	width: 59vw;
-	height: 15vh;
+  background-color: yellow;
+  width: 100%;
+	text-align: center;
 	-webkit-user-select: none; /* Safari */        
 	-moz-user-select: none; /* Firefox */
 	-ms-user-select: none; /* IE10+/Edge */
 	user-select: none; /* Standard */
-	top: 8vh;
-	left: 20vw;
-	text-align: left;
-	object-fit: cover;
-	line-height: 9vmin;
 	}
 

@@ -1,7 +1,7 @@
-var botao1 = document.getElementById("botao1");
-var botao2 = document.getElementById("botao2");
-var botao3 = document.getElementById("botao3");
-var botao4 = document.getElementById("botao4");
+var botaoTrabalhos = document.getElementById("botaoTrabalhos");
+var botaoPublicacoes = document.getElementById("botaoPublicacoes");
+var botaoNoticias = document.getElementById("botaoNoticias");
+var botaoParceiros = document.getElementById("botaoParceiros");
 
 function mouseEmcima(x)
 {
@@ -33,7 +33,7 @@ function containerMouseClick()
 	console.log("mouse click in the container");
 }
 
-function onclickBotao1()
+function onclickbotaoTrabalhos()
 {
 	$('#gif_bg_container').load('trabalhos.html');
 }

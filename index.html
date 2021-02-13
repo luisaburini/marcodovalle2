@@ -1,7 +1,7 @@
 
 <html>
 	<head>
-		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 		<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
 		<meta content="utf-8" http-equiv="encoding">
 		<link rel="stylesheet" href="styles.css">
@@ -10,13 +10,41 @@
 	</head>
 	
 	<body>
-		<div class="title" id="title">MARCO DO VALLE</div>
+
 		
-		<div class="container-fluid container-fluid-marco">
-		
-		<div class="row-fluid">
-			<div class="col-sm-6 col-md-6 col-xs-6 col-lg-6"></div>
-				<img  class="retrato" src="https://marcodovalle.com/wp-content/uploads/2018/08/mcv26.jpeg" id="retrato"></img>
+
+		<div class="container-fluid container-fluid-painel" onclick="containerMouseClick()" onmouseover="containerMouseOver(this)" onmouseout="containerMouseOut(this)">
+		<div class="row">
+			<div class="col-sm-12 col-xs-12 col-lg-12 col-md-12">
+						<div class="title" id="title">MARCO DO VALLE</div>
+			</div>
+		</div>
+		<div class="row" >
+				<div class="col-sm-2 col-xs-12 col-lg-2 col-md-2 botao">
+						<p class="botao mouse_out" id="botaoTrabalhos"  onmouseover="mouseEmcima(this)" onmouseout="mouseFora(this)" onclick="onclickbotaoTrabalhos()">TRABALHOS</p>
+				</div>
+				<div class="col-lg-2 col-md-2 col-sm-2 col-xs-12 botao">
+						<p class="botao mouse_out" id="botaoPublicacoes" onmouseover="mouseEmcima(this)" onmouseout="mouseFora(this)" onclick="onclickbotaoPublicacoes">PUBLICAÇÕES</p>
+				</div>
+			<div class="col-lg-2 col-md-2 col-sm-2 col-xs-12 botao">
+			<p class="botao mouse_out" id="botaoNoticias" onmouseover="mouseEmcima(this)" onmouseout="mouseFora(this)" onclick="onclickbotaoNoticias">NOTÍCIAS</p>
+				</div>
+				
+			<div class="col-lg-2 col-md-2 col-sm-2 col-xs-12 botao">
+			<p class="botao mouse_out" id="botaoParceiros" onmouseover="mouseEmcima(this)" onmouseout="mouseFora(this)" onclick="onclickbotaoParceiros">PARCEIROS</p>
+				</div>
+				
+			<div class="col-lg-2 col-md-2 col-sm-2 col-xs-12 botao">
+			<p class="botao mouse_out" id="botaoDossies" onmouseover="mouseEmcima(this)" onmouseout="mouseFora(this)" onclick="onclickbotaoDossies">DOSSIÊS</p>
+				</div>
+				
+			<div class="col-lg-2 col-md-2 col-sm-2 col-xs-12 botao">
+			<p class="botao mouse_out" id="botaoContato" onmouseover="mouseEmcima(this)" onmouseout="mouseFora(this)" onclick="onclickbotaoContato">CONTATO</p>
+				</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+				<img  src="https://live.staticflickr.com/65535/50933608583_21305d823f_o.jpg"  alt="Poesia Walter Silveira para Marco do Valle">
 			</div>
 			<div class="col-sm-6 col-md-6 col-xs-6 col-lg-6">
 				<h1><mark id="bio" class="bio">
@@ -25,36 +53,6 @@
 			</div>
 		</div>
 		</div>
-
-<div class="painel">
-		<div class="container-fluid container-fluid-painel" onclick="containerMouseClick()" onmouseover="containerMouseOver(this)" onmouseout="containerMouseOut(this)">
-		<div class="row rowclass" >
-				<div class="col-sm-2 col-xs-12 col-lg-2 col-md-2 botao">
-						<div class="botao mouse_out" id="botao1"  onmouseover="mouseEmcima(this)" onmouseout="mouseFora(this)" onclick="onclickBotao1()">TRABALHOS</div>
-				</div>
-				<div class="col-lg-2 col-md-2 col-sm-2 col-xs-12 botao">
-						<div class="botao mouse_out" id="botao2" onmouseover="mouseEmcima(this)" onmouseout="mouseFora(this)" onclick="onclickBotao2">PUBLICAÇÕES</div>
-				</div>
-			<div class="col-lg-2 col-md-2 col-sm-2 col-xs-12 botao">
-			<div class="botao mouse_out" id="botao3" onmouseover="mouseEmcima(this)" onmouseout="mouseFora(this)" onclick="onclickBotao3">NOTÍCIAS</div>
-				</div>
-				
-			<div class="col-lg-2 col-md-2 col-sm-2 col-xs-12 botao">
-			<div class="botao mouse_out" id="botao4" onmouseover="mouseEmcima(this)" onmouseout="mouseFora(this)" onclick="onclickBotao4">PARCEIROS</div>
-				</div>
-				
-			<div class="col-lg-2 col-md-2 col-sm-2 col-xs-12 botao">
-			<div class="botao mouse_out" id="botao5" onmouseover="mouseEmcima(this)" onmouseout="mouseFora(this)" onclick="onclickBotao5">DOSSIÊS</div>
-				</div>
-				
-			<div class="col-lg-2 col-md-2 col-sm-2 col-xs-12 botao">
-			<div class="botao mouse_out" id="botao6" onmouseover="mouseEmcima(this)" onmouseout="mouseFora(this)" onclick="onclickBotao6">CONTATO</div>
-				</div>
-		</div>
-		</div>
-</div>
-
-<div id="fundo" class="fundo"></div>
 
 
 		<script src="actions.js"></script>
