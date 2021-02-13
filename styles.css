@@ -18,11 +18,15 @@
 		color: #000000;
 	}
 
+	.fundo {
+		width: 90%;	
+	}
 
 	.container {
-		display: ;
-		width: 200vw;
-		left: -100vw;		
+		margin-right: 0;
+		margin-left: 0;
+		margin: 0 auto;
+		width: 100%;
 	}
 	
 	.fundo {
@@ -75,8 +79,8 @@
 		position: relative;
 		color: black;
 		z-index: 5;
-		font-size: 2vmin;	
-		line-height: 2.2vmin;
+		font-size: 1.4vmax;	
+		line-height: 1.5vmax;
 		text-align: justify;
 		width: 100vmax;
 		letter-spacing: -0.05em;
@@ -86,8 +90,7 @@
 	}
 	
 	.poesia {
-		left: -50vw;
-		width: 48vw;
+		width: 30vw;
 	}
 	
 	.botao {
@@ -102,7 +105,7 @@
 		font-size: 3vmin;	
 		/*font-family: 'Special Elite', cursive;*/
 		font-family: Helvetica;
-		font-weight: 1000;
+		font-weight: 900;
 		text-align: center;
 		vertical-align: middle;
 	  letter-spacing: -0.3vmin;
@@ -130,7 +133,7 @@
 	white-space: nowrap;
 	z-index: 5;
   font-family: Helvetica;
-	font-weight: 1000;
+	font-weight: 900;
 	font-size: 20vmin;	
 	/*font-family: 'Special Elite', cursive;*/
 	/*font-family: 'Archivo Black', sans-serif;*/
