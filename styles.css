@@ -18,6 +18,12 @@
 		color: #000000;
 	}
 
+
+	.container {
+		display: ;
+		width: 200vw;
+		left: -100vw;		
+	}
 	
 	.fundo {
 		position: absolute;
@@ -26,75 +32,63 @@
 		object-fit: fill;
 		z-index: 0;
 		background-repeat: no-repeat;
-		/*background-image: url('https://live.staticflickr.com/65535/50933608583_21305d823f_o.jpg');*/
 	}
 	
 	.circle-sketch-highlight{
   position:relative;
-}.circle-sketch-highlight:before{
-  content:"";
-  z-index:-1;
-  left:2.5em;
-  top:1.5em;
-  border-width:2px;
-  border-style:solid;
-  border-color:black;
-  position:absolute;
-  border-right-color:transparent;
-  width:62%;
-  height:3em;
-  transform:rotate(2deg);
-  opacity:0.7;
-  border-radius:50%;
-  padding:0.1em 0.25em;
-}.circle-sketch-highlight:after{
-  content:"";
-  z-index:-1;
-  left:2.6em;
-  top:1.7em;
-  padding:0.1em 0.25em;
-  border-width:2px;
-  border-style:solid;
-  border-color:black;
-  border-left-color:transparent;
-  border-top-color:transparent;
-  position:absolute;
-  width:61%;
-  height:3.3em;
-  transform:rotate(-1deg);
-  opacity:0.7;
-  border-radius:50%;
-}
-	
-	
-	.row {
-		display: block;
-	}
-	
-	.container-fluid-painel {
-		position: absolute;
-		top: 0vmin;
-		left: 0vw;
-		width: 100vw!important;
-	}
-	
-	.container-fluid-marco {
-		position: absolute;
-		top: 40vh;
-		left: 10vmax;
-		max-width: 80vw;
+	}.circle-sketch-highlight:before{
+		content:"";
+		z-index:-1;
+		left:2.5em;
+		top:1.5em;
+		border-width:2px;
+		border-style:solid;
+		border-color:black;
+		position:absolute;
+		border-right-color:transparent;
+		width:62%;
+		height:3em;
+		transform:rotate(2deg);
+		opacity:0.7;
+		border-radius:50%;
+		padding:0.1em 0.25em;
+	}.circle-sketch-highlight:after{
+		content:"";
+		z-index:-1;
+		left:2.6em;
+		top:1.7em;
+		padding:0.1em 0.25em;
+		border-width:2px;
+		border-style:solid;
+		border-color:black;
+		border-left-color:transparent;
+		border-top-color:transparent;
+		position:absolute;
+		width:61%;
+		height:3.3em;
+		transform:rotate(-1deg);
+		opacity:0.7;
+		border-radius:50%;
 	}
 	
 	.bio {
 		position: relative;
-		background-color: red;
-		color: black;
+		color: white;
+		background-color: black;
 		z-index: 5;
 		font-size: 3vmin;	
 		line-height: 5vmin;
-		text-align: center;
+		text-align: justify;
+		width: 100%;
+		font-family: BankPrinter;
 		/*padding-bottom: 0.5em;*/
 		/*display: inline;*/
+	}
+	
+	.poesia {
+		left: -20vw;
+		width: 100vw;
+		object-fit: fill;
 	}
 	
 	.botao {
@@ -112,7 +106,6 @@
 		text-align: center;
 		vertical-align: middle;
 		line-height: 10vh;        /*The same as your div height */
-		background-color: purple;
 	}
 	
 	@font-face {
@@ -126,17 +119,23 @@
 	  src: url("MicrogrammaDExtendedBold.otf") format("opentype");
 	}
 	
+	
+	@font-face {
+    font-family: BankPrinter;
+    src: url("F25_Bank_Printer.otf") format("opentype");
+	}
+	
 	.title {
+	white-space: nowrap;
 	z-index: 5;
   font-family: Micrograma;
 	font-size: 10vmin;	
 	/*font-family: 'Special Elite', cursive;*/
 	/*font-family: 'Archivo Black', sans-serif;*/
 	font-family: Micrograma;
-	position: absolute;
 	color: #000000;
-  background-color: yellow;
-  width: 100%;
+  width: 100vw;
+  left: 0vw;
 	text-align: center;
 	-webkit-user-select: none; /* Safari */        
 	-moz-user-select: none; /* Firefox */
