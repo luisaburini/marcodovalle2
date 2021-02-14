@@ -121,9 +121,8 @@
 	text-align: center;
 	width: 100%;
 	left: 0;
-	bottom: 0;
-	line-height: 1.5vh; 
-	height:13vh;
+	bottom: 0; 
+	height:17vh;
 	position: absolute;
 	font-weight: 900;
 	}
@@ -131,9 +130,17 @@
 	.container-rights{
 		width: 50%;
 		margin-left: 25%;
+		margin-top: 1vh;
 	}
 
 	.prights {
+		text-align: right;
+		width: 50vw;
+		height: auto;
+		white-space: nowrap;
+	}
+
+	.plefts {
 		text-align: left;
 		width: 50vw;
 		height: auto;
