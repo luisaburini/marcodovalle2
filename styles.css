@@ -28,7 +28,7 @@
 	width: 100%;
 	height: auto;
 	z-index: 0;
-	object-fit: scale-down;
+	background-size: cover;
 	z-index: 0;
 	background-repeat: no-repeat;
 	background-image: url("https://live.staticflickr.com/65535/50943095386_ffc1ed5ecd_o.png");
