@@ -18,13 +18,9 @@
 
 
 	.container-marco {
-	margin-right: 0;
-	margin-left: 0;
-	margin: 0 auto;
 	width: 80vw;
-	background-color: transparent;
-	color: transparent;
-	grid-gap: -10px;
+	margin-left: 10vw;
+	margin-bottom: 40vh;
 	}
 	
 	.fundo {
@@ -118,12 +114,12 @@
 	color: white;
 	background-color: black;
 	font-family: Helvetica;
-	font-size: 1.5vh;
+	font-size: 2vh;
 	text-align: center;
 	width: 100%;
 	left: 0;
 	bottom: 0; 
-	height:17vh;
+	height:25vh;
 	position: absolute;
 	font-weight: 900;
 	}
@@ -149,7 +145,7 @@
 	}
 
 	.logo{
-		height: 10vh;
+		height: 15vh;
 		object-fit:contain;
 		text-align: right;
 		
