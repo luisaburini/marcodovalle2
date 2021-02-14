@@ -125,7 +125,7 @@
 	}
 
 	.container-rights{
-		width: 100%;
+		width: 100%!important;
 		bottom: 0;
 		z-index: 15;
 		margin-top: 3vh;
@@ -141,13 +141,14 @@
 
 	.plefts {
 		text-align: left;
-		width: 20vw;
+		width: 15vw;
 		height: auto;
 		white-space: nowrap;
 	}
 
 	.logo{
 		height: 20vh;
+		width: auto;
 		object-fit:contain;
 		text-align: left;
 		
