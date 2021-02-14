@@ -90,7 +90,7 @@
 	}
 	
 	.poesia {
-		width: 30vw;
+		width: 100%;
 	}
 	
 	.botao {
@@ -124,6 +124,7 @@
 		line-height: 1.7vh; 
 		height: 10vh;
 		margin: auto;
+		font-weight: light;
 	}
 	
 	@font-face {
@@ -148,7 +149,7 @@
 	z-index: 5;
   font-family: Helvetica;
 	font-weight: 900;
-	font-size: 20vmin;	
+	font-size: 20vh;	
 	/*font-family: 'Special Elite', cursive;*/
 	/*font-family: 'Archivo Black', sans-serif;*/
 	color: #000000;
