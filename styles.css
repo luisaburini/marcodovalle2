@@ -18,9 +18,10 @@
 
 
 	.container-marco {
-	width: 80vw;
-	margin-left: 10vw;
-	margin-bottom: 45vh;
+	margin-left: 20vw;
+	width: 60vw;
+	height: auto;
+	margin-bottom: 40vh;
 	}
 	
 	.fundo {
@@ -72,18 +73,17 @@
 	}
 	
 	.bio {
-	position: relative;
+
 	color: black;
 	z-index: 5;
 	font-size: 1.3vmax;	
 	line-height: 1.4vmax;
 	text-align: justify;
-	width: 100vmax;
 	font-family: Helvetica;
 	}
 	
 	.poesia {
-	width: 100%;
+	width: 35vw;
 	}
 	
 	.botao {
@@ -117,39 +117,46 @@
 	font-size: 2vh;
 	text-align: center;
 	width: 100%;
-	left: 0;
-	bottom: 0; 
+	left: 0vw;
+	bottom: 0vw; 
 	height:25vh;
-	position: absolute;
 	font-weight: 900;
+	position: absolute;
 	}
 
 	.container-rights{
-		width: 50%;
-		margin-left: 25%;
-		margin-top: 2vh;
+		width: 100%;
+		bottom: 0;
+		z-index: 15;
+		margin-top: 3vh;
+		position: relative;
 	}
 
 	.prights {
 		text-align: right;
-		width: 25vw;
+		width: 20vw;
 		height: auto;
 		white-space: nowrap;
 	}
 
 	.plefts {
 		text-align: left;
-		width: 25vw;
+		width: 20vw;
 		height: auto;
 		white-space: nowrap;
 	}
 
 	.logo{
-		height: 15vh;
+		height: 20vh;
 		object-fit:contain;
-		text-align: right;
+		text-align: left;
 		
 	}
+
+	::selection {
+		color: red;
+		background: yellow;
+	  }
 	
 	@font-face {
     font-family: Micrograma;
@@ -179,7 +186,6 @@
 	color: #000000;
   	width: 100vw;
   	height: 22vh;
-  	left: 0vw;
   	letter-spacing: -2vmin;
 	text-align: center;
 	-webkit-user-select: none; /* Safari */        
