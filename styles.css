@@ -10,19 +10,18 @@
 	
 	.mouse_over {
 	color: black;
-	background-color: #854935;
 	}
 	
 	.mouse_out {
-	color: #000000;
+	color: black;
 	}
 
 
-	.container {
+	.container-marco {
 	margin-right: 0;
 	margin-left: 0;
 	margin: 0 auto;
-	width: 100%;
+	width: 80vw;
 	background-color: transparent;
 	color: transparent;
 	grid-gap: -10px;
@@ -109,7 +108,7 @@
 	line-height: 10vh;        /*The same as your div height */
 	}
 	
-	.mailto{
+	.clickable{
 	color: white;
 	}
 
@@ -123,16 +122,29 @@
 	width: 100%;
 	left: 0;
 	bottom: 0;
-	line-height: 1.7vh; 
-	height:10vh;
+	line-height: 1.5vh; 
+	height:13vh;
 	position: absolute;
 	font-weight: 900;
 	}
 
-	.prights {
-		margin-left: 50%;
-		text-align: left;
+	.container-rights{
 		width: 50%;
+		margin-left: 25%;
+	}
+
+	.prights {
+		text-align: left;
+		width: 50vw;
+		height: auto;
+		white-space: nowrap;
+	}
+
+	.logo{
+		height: 10vh;
+		object-fit:contain;
+		text-align: right;
+		
 	}
 	
 	@font-face {
@@ -157,7 +169,7 @@
 	z-index: 5;
   	font-family: Helvetica;
 	font-weight: 900;
-	font-size: 20vh;	
+	font-size: 10vmax;	
 	/*font-family: 'Special Elite', cursive;*/
 	/*font-family: 'Archivo Black', sans-serif;*/
 	color: #000000;

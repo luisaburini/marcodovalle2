@@ -6,7 +6,7 @@ var botaoParceiros = document.getElementById("botaoParceiros");
 function mouseEmcima(x)
 {
 	x.classList.add("circle-sketch-highlight");
-	x.classList.remove("mouse_out");
+	x.classList.remove("mouse_over");
 		console.log("mouse over button");
 }
 
