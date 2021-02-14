@@ -30,8 +30,9 @@
 	.fundo {
 	position: absolute;
 	width: 100%;
+	height: auto;
 	z-index: 0;
-	object-fit: fill;
+	object-fit: scale-down;
 	z-index: 0;
 	background-repeat: no-repeat;
 	background-image: url("https://live.staticflickr.com/65535/50943095386_ffc1ed5ecd_o.png");
@@ -135,14 +136,14 @@
 
 	.prights {
 		text-align: right;
-		width: 50vw;
+		width: 25vw;
 		height: auto;
 		white-space: nowrap;
 	}
 
 	.plefts {
 		text-align: left;
-		width: 50vw;
+		width: 25vw;
 		height: auto;
 		white-space: nowrap;
 	}
