@@ -80,11 +80,10 @@
 		position: relative;
 		color: black;
 		z-index: 5;
-		font-size: 1.4vmax;	
-		line-height: 1.5vmax;
+		font-size: 1.3vmax;	
+		line-height: 1.4vmax;
 		text-align: justify;
 		width: 100vmax;
-		letter-spacing: -0.05em;
 		font-family: Helvetica;
 		/*padding-bottom: 0.5em;*/
 		/*display: inline;*/
@@ -111,6 +110,20 @@
 		vertical-align: middle;
 	  letter-spacing: -0.3vmin;
 		line-height: 10vh;        /*The same as your div height */
+	}
+	
+	.rights {
+		color: white;
+		background-color: black;
+		vertical-align: middle;
+		font-family: Helvetica;
+		font-size: 1.5vh;
+		text-align: center;
+		width: 99.3vw;
+		padding: top: 2vmin;
+		line-height: 1.7vh; 
+		height: 10vh;
+		margin: auto;
 	}
 	
 	@font-face {
