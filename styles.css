@@ -16,12 +16,12 @@
 	color: black;
 	}
 
-
 	.container-marco {
 	margin-left: 20vw;
 	width: 60vw;
 	height: auto;
 	margin-bottom: 40vh;
+	margin-top: 20vh;
 	}
 	
 	.fundo {
@@ -73,7 +73,6 @@
 	}
 	
 	.bio {
-
 	color: black;
 	z-index: 5;
 	font-size: 1.3vmax;	
@@ -96,7 +95,6 @@
 	-ms-user-select: none; /* IE10+/Edge */
 	user-select: none; /* Standard */
 	font-size: 4vmin;	
-	/*font-family: 'Special Elite', cursive;*/
 	font-family: Helvetica;
 	font-weight: 900;
 	text-align: center;
@@ -125,38 +123,38 @@
 	}
 
 	.container-rights{
-		width: 100%!important;
-		bottom: 0;
-		z-index: 15;
-		margin-top: 3vh;
-		position: relative;
+	width: 100%!important;
+	bottom: 0;
+	z-index: 15;
+	margin-top: 3vh;
+	position: relative;
 	}
 
 	.prights {
-		text-align: right;
-		width: 20vw;
-		height: auto;
-		white-space: nowrap;
+	text-align: right;
+	width: 20vw;
+	height: auto;
+	white-space: nowrap;
 	}
 
 	.plefts {
-		text-align: left;
-		width: 15vw;
-		height: auto;
-		white-space: nowrap;
+	text-align: left;
+	width: 15vw;
+	height: auto;
+	white-space: nowrap;
 	}
 
 	.logo{
-		height: 20vh;
-		width: auto;
-		object-fit:contain;
-		text-align: left;
+	height: 20vh;
+	width: auto;
+	object-fit:contain;
+	text-align: left;
 		
 	}
 
 	::selection {
-		color: red;
-		background: yellow;
+	color: red;
+	background: yellow;
 	  }
 	
 	@font-face {
@@ -182,13 +180,13 @@
   	font-family: Helvetica;
 	font-weight: 900;
 	font-size: 10vmax;	
-	/*font-family: 'Special Elite', cursive;*/
-	/*font-family: 'Archivo Black', sans-serif;*/
 	color: #000000;
   	width: 100vw;
+	left: 0;
   	height: 22vh;
   	letter-spacing: -2vmin;
 	text-align: center;
+	position: fixed;
 	-webkit-user-select: none; /* Safari */        
 	-moz-user-select: none; /* Firefox */
 	-ms-user-select: none; /* IE10+/Edge */
