@@ -103,9 +103,15 @@
 	line-height: 10vh;        /*The same as your div height */
 	}
 	
-	.clickable{
-	color: white;
+	.clickable:hover{
+	color: red;
+	background-color: yellow;
 	}
+
+	.clickable{
+		color: white;
+	}
+	
 
 	.rights {
 	z-index: 10;
@@ -183,7 +189,7 @@
 	color: #000000;
   	width: 100vw;
 	left: 0;
-  	height: 22vh;
+  	height: 17vh;
   	letter-spacing: -2vmin;
 	text-align: center;
 	position: fixed;
