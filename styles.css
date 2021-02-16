@@ -17,8 +17,8 @@
 	}
 
 	.container-marco {
-	margin-left: 15vw;
-	width: 70vw;
+	margin-left: 13vw;
+	width: 74vw;
 	height: auto;
 	margin-bottom: 40vh;
 	margin-top: 20vh;
@@ -75,8 +75,8 @@
 	.bio {
 	color: black;
 	z-index: 5;
-	font-size: 1.3vmax;	
-	line-height: 1.4vmax;
+	font-size: 1.5vmax;	
+	line-height: 1.6vmax;
 	text-align: justify;
 	font-family: Helvetica;
 	}
@@ -87,7 +87,7 @@
 	
 	.botao {
 	text-align: center;
-	width: 30vw;
+	width: 12.2vw!important;
 	height: 15vh;
 	z-index: 5;
 	-webkit-user-select: none; /* Safari */        
@@ -101,6 +101,10 @@
 	vertical-align: middle;
 	letter-spacing: -0.3vmin;
 	line-height: 10vh;        /*The same as your div height */
+	}
+	
+	.clickableBotao:hover {
+	text-decoration: none;
 	}
 	
 	.clickable:hover{
